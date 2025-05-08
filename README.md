@@ -1,3 +1,3 @@
 # HaloMenu
-This Is Honestly So People Can Find The Menu Better
+Mod Menu For Gorilla Tag Yk Just A C# Learning Project
 https://discord.gg/SXV8Bmy4Tt
