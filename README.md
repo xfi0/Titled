@@ -1,14 +1,14 @@
-## Cosmos Mod Menu for Gorilla Tag
+# Cosmos Mod Menu for Gorilla Tag
 
-# About
+## About
 Cosmos is a feature-rich mod menu designed for Gorilla Tag copies. The Menu Was Originally started as Halo Menu, this project began as a way to learn C# but has since evolved into a public modding tool for Gorilla Tag.
 
-# Features:
+## Features:
 Good Catagorization,
 Good Feature List,
 Minimal Preformance Impact.
 
-# Installation
+## Installation
 Download the latest release from GitHub Releases 
 
 Extract the files to your Gorilla Tag mods folder
