@@ -15,7 +15,7 @@ Extract the dll to your games mod folder
 
 Launch the game and enjoy!
 
-Support & Community
+For Support & Community
 Join our Discord community for support, updates, and to connect with other users:
 🔗 [Cosmos Discord](https://discord.gg/SXV8Bmy4Tt)
 
