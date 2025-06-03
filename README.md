@@ -11,7 +11,7 @@ Minimal Preformance Impact.
 ## Installation
 Download the latest release from GitHub Releases 
 
-Extract the files to your Gorilla Tag mods folder
+Extract the dll to your games mod folder
 
 Launch the game and enjoy!
 
