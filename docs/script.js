@@ -81,3 +81,30 @@ document.addEventListener('DOMContentLoaded', () => {
       alert('Error fetching latest release: ' + err.message);
     }
   });
+// ball background stuff
+document.addEventListener('DOMContentLoaded', () => {
+  const container = document.getElementById('floating-balls');
+  const ballCount = Math.floor(window.innerWidth * window.innerHeight / 10000); 
+  
+  for (let i = 0; i < ballCount; i++) {
+    const ball = document.createElement('div');
+    ball.classList.add('floating-ball');
+    
+    // make it randomly move arroud
+    const size = Math.random() * 10 + 5;
+    const posX = Math.random() * window.innerWidth;
+    const duration = Math.random() * 30 + 20;
+    const delay = Math.random() * -30;
+    const opacity = Math.random() * 0.4 + 0.1;
+    
+    ball.style.width = `${size}px`;
+    ball.style.height = `${size}px`;
+    ball.style.left = `${posX}px`;
+    ball.style.bottom = `-${size}px`;
+    ball.style.animationDuration = `${duration}s`;
+    ball.style.animationDelay = `${delay}s`;
+    ball.style.opacity = opacity;
+    
+    container.appendChild(ball);
+  }
+});
