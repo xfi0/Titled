@@ -154,4 +154,26 @@ footer a:hover {
 .Info::-webkit-scrollbar-track {
   background: transparent;
 }
+#floating-balls {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
 
+.floating-ball {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(86, 97, 249, 0.4) 0%, rgba(86, 97, 249, 0.1) 70%);
+  filter: blur(1px);
+  animation: float linear infinite;
+}
+
+@keyframes float {
+  to {
+    transform: translateY(-100vh);
+  }
+}
