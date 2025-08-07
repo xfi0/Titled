@@ -224,10 +224,14 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 30px;
-  align-items: center;
+  align-items: stretch;
 }
 
+
 .feature-card {
+  height: 100%; 
+  display: flex;
+  flex-direction: column;
   background: var(--card-bg);
   backdrop-filter: blur(10px);
   border-radius: 15px;
@@ -258,6 +262,7 @@ body {
 
 .feature-card p {
   color: #a6b0ff;
+  flex-grow: 1;
 }
 
 .download {
@@ -373,6 +378,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 30px;
+  align-items: stretch;
 }
 
 .feedback-card {
@@ -383,8 +389,9 @@ body {
   transition: all 0.3s ease;
   border: 1px solid rgba(86, 97, 249, 0.2);
   position: relative;
-  padding-left: 90px; /* Make space for the image */
-  min-height: 120px; /* Ensure consistent height */
+  padding-left: 90px;
+  min-height: 120px; 
+  height: 100%;
 }
 
 .feedback-card:hover {
