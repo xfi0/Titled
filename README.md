@@ -5,6 +5,8 @@
 <p align="center">Titled is a advanced cheat, with great features, and full custimization.</p>
 <p align="center">⭐Please, star this repo if you enjoyed it!⭐</p>
 </div>
+<hr></hr>
+
 ## About
 Titled is a feature-rich mod menu designed for Gorilla Tag copies. The Menu Was Originally started as Halo Menu then Cosmos and finally Titled. This project began as a way to learn C# but has since evolved into a public menu for Gorilla Tag Copies.
 
