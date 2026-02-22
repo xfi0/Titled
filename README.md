@@ -1,3 +1,5 @@
+<div align="center">
+
 # Titled Mod Menu for Gorilla Tag
 
 <p align="center">Titled is a advanced cheat, with great features, and full custimization.</p>
@@ -33,3 +35,4 @@ This mod menu is designed for use with Gorilla Tag copies only. Use at your own 
 
 ## Development
 Titled started as a C# learning project and considers all contributions from the community. If you're interested in contributing, please reach out on our Discord server, or dm me at 'domok.'.
+</div>
